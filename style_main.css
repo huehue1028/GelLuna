@@ -1,0 +1,676 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+img {
+    vertical-align: middle;
+}
+
+body {
+    font-family: 'SCoreDream';
+    font-size: 17px;
+    line-height: 24px;
+    color: #342a33;
+    background-color: #342a33;
+    min-width: 1450px;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: block;
+}
+
+/*top*/
+.top {
+    background-color: #542d4f;
+    width: 100%;
+    height: 50px;
+    margin: 0 auto;
+}
+
+/*header*/
+#header {
+    background-color: #f4edd3;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 150px;
+    z-index: 50;
+    border-bottom: rgb(99, 99, 99) 1px solid;
+    font-family: 'Della Respira', serif;
+    font-weight: normal;
+}
+
+.header_inner {
+    width: 1320px;
+    margin: 0 auto;
+}
+
+.logo {
+    padding-top: 22px;
+    float: left;
+}
+
+.gnb {
+    float: left;
+    padding: 30px;
+}
+
+.gnb li {
+    float: left;
+    color: inherit;
+    font-size: 22px;
+    padding-top: 10px;
+    padding-right: 60px;
+}
+
+.util {
+    float: right;
+}
+
+.util p {
+    float: left;
+    display: block;
+    padding: 30px 0;
+}
+
+.util .cart {
+    padding-left: 30px;
+}
+
+.util .glass {
+    padding-left: 20px;
+}
+
+.util .m_lang_area {
+    padding-left: 20px;
+}
+
+#header .util a.border_radius {
+    vertical-align: middle;
+    width: 100px;
+    padding: 0 10px;
+    margin-left: 30px;
+    border: 1px solid #542d4f;
+    border-radius: 30px;
+    height: 38px;
+    line-height: 38px;
+    box-sizing: border-box;
+}
+
+#header ul li a:hover {
+    font-weight: bold;
+    transition: all 0.5s;
+}
+
+#header .util a.border_radius:hover {
+    background-color: #542d4f;
+    color: #fff;
+    transition: all 0.5s;
+}
+
+#header .cart:hover {
+    background: url(./img/shopping-bag_top_hover.png) no-repeat 100% 50%;
+}
+
+#header .glass:hover {
+    background: url(./img/magnifying-glass_top_hover.png) no-repeat 100% 50%;
+}
+
+/*banner*/
+#banner {
+    width: 100%;
+    margin-top: 149px;
+    padding-bottom: 120px;
+}
+
+#banner img {
+    width: 100%;
+}
+
+/*menu_name*/
+.menu_name {
+    color: #fde163;
+    padding-left: 65px;
+    padding-top: 30px;
+    font-family: 'Della Respira', serif;
+    font-weight: normal;
+}
+
+/*best*/
+.best {
+    width: 1320px;
+    margin: 0 auto;
+}
+
+.best_inner li {
+    float: left;
+}
+
+.best_item1 {
+    width: 386px;
+    height: 454px;
+    background: url(./img/daily_burgundy_main.png) no-repeat 100% 100%;
+    margin-top: 57px;
+    margin-right: 81px;
+    margin-bottom: 54px;
+}
+
+.best_item2 {
+    width: 386px;
+    height: 454px;
+    background: url(./img/coral_barry_main.png) no-repeat 100% 100%;
+    margin-top: 57px;
+    margin-right: 81px;
+    margin-bottom: 54px;
+}
+
+.best_item3 {
+    width: 386px;
+    height: 454px;
+    background: url(./img/spring_flower_main.png) no-repeat 100% 100%;
+    margin-top: 57px;
+    margin-bottom: 54px;
+}
+
+.best_text {
+    width: 386px;
+    padding-top: 350px;
+    float: left;
+    display: inline-block;
+}
+
+.best_text p {
+    float: left;
+    color: #fff;
+    padding-top: 30px;
+    padding-left: 30px
+}
+
+.best_text ul {
+    float: right;
+    padding-right: 40px;
+}
+
+.best_text ul li {
+    float: left;
+    margin: 30px 4px;
+}
+
+.best .glass:hover {
+    background: url(./img/magnifying-glass_3x1_hover.png) no-repeat 50% 48%;
+}
+
+.best .love:hover {
+    background: url(./img/love_3x1_hover.png) no-repeat 50% 48%;
+}
+
+.best .cart:hover {
+    background: url(./img/shopping-bag_3x1_hover.png) no-repeat 50% 48%;
+}
+
+.more {
+    text-align: right;
+}
+
+/*event*/
+#event {
+    height: 562px;
+    margin-top: 88px;
+    padding-bottom: 118px;
+}
+
+#event img {
+    width: 100%;
+    margin-top: 60px;
+}
+
+.menu_box {
+    width: 1320px;
+    margin: 0 auto;
+}
+
+/*new*/
+.new {
+    width: 1320px;
+    height: 946px;
+    margin: 0 auto;
+}
+
+.new_inner1 {
+    width: 1170px;
+    margin: 0 auto;
+}
+
+.new_inner1 li {
+    float: left;
+}
+
+.new_item1 {
+    width: 267px;
+    height: 364px;
+    background: url(./img/spring_bloom_main.png) no-repeat 100% 100%;
+    margin-top: 52px;
+    margin-right: 34px;
+}
+
+.new_item2 {
+    width: 267px;
+    height: 364px;
+    background: url(./img/cotten_candy_main.png) no-repeat 100% 100%;
+    margin-top: 52px;
+    margin-right: 34px;
+}
+
+.new_item3 {
+    width: 267px;
+    height: 364px;
+    background: url(./img/olive_essence_main.png) no-repeat 100% 100%;
+    margin-top: 52px;
+    margin-right: 34px;
+}
+
+.new_item4 {
+    width: 267px;
+    height: 364px;
+    background: url(./img/deep_darkness_main.png) no-repeat 100% 100%;
+    margin-top: 52px;
+}
+
+.new_inner2 {
+    width: 1170px;
+    margin: 0 auto;
+}
+
+.new_inner2 li {
+    float: left;
+}
+
+.new_item5 {
+    width: 267px;
+    height: 364px;
+    background: url(./img/melonie_white_main.png) no-repeat 100% 100%;
+    margin-top: 52px;
+    margin-right: 34px;
+}
+
+.new_item6 {
+    width: 267px;
+    height: 364px;
+    background: url(./img/pearl_bride_main.png) no-repeat 100% 100%;
+    margin-top: 52px;
+    margin-right: 34px;
+}
+
+.new_item7 {
+    width: 267px;
+    height: 364px;
+    background: url(./img/enjoy_hollyday_main.png) no-repeat 100% 100%;
+    margin-top: 52px;
+    margin-right: 34px;
+}
+
+.new_item8 {
+    width: 267px;
+    height: 364px;
+    background: url(./img/blingbling_red_main.png) no-repeat 100% 100%;
+    margin-top: 52px;
+    margin-bottom: 55px;
+}
+
+.new_text {
+    width: 267px;
+    padding-top: 263px;
+    float: left;
+    display: inline-block;
+}
+
+.new_text p {
+    float: left;
+    color: #fff;
+    padding-top: 28px;
+    padding-left: 20px
+}
+
+.new_text ul {
+    float: right;
+    padding-right: 9px;
+}
+
+.new_text ul li {
+    float: left;
+    margin: 36px 4px;
+}
+
+.new .glass:hover {
+    background: url(./img/magnifying-glass_4x1_hover.png) no-repeat 50% 48%;
+}
+
+.new .love:hover {
+    background: url(./img/love_4x1_hover.png) no-repeat 50% 48%;
+}
+
+.new .cart:hover {
+    background: url(./img/shopping-bag_4x1_hover.png) no-repeat 50% 48%;
+}
+
+/*model*/
+#model {
+    height: 458px;
+    margin-top: 30px;
+    padding-bottom: 118px;
+}
+
+#model img {
+    width: 100%;
+    margin-top: 60px;
+}
+
+/*review*/
+.review {
+    width: 1320px;
+    margin: 0 auto;
+}
+
+#slide {
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    padding-top: 57px;
+    padding-bottom: 90px;
+}
+
+.slide_inner {
+    display: flex;
+    width: 200%;
+    animation: rotate 10s linear infinite;
+}
+
+.slide_inner ul {
+    display: flex;
+    width: 50%;
+    justify-content: space-around;
+}
+
+.slide_inner ul li {
+    max-width: 300px;
+}
+
+.slide_inner ul li:nth-child(1) {
+    padding-left: 20px;
+}
+
+.slide_inner ul li:nth-child(2) {
+    padding-left: 20px;
+}
+
+.slide_inner ul li:nth-child(3) {
+    padding-left: 20px;
+}
+
+.slide_inner ul li:nth-child(4) {
+    padding-left: 20px;
+}
+
+.slide_inner ul li:nth-child(5) {
+    padding-left: 20px;
+}
+
+.slide_inner ul li:nth-child(6) {
+    padding-left: 20px;
+}
+
+.slide_inner ul li:nth-child(7) {
+    padding-left: 20px;
+}
+
+.slide_inner ul li:nth-child(8) {
+    padding-left: 20px;
+}
+
+.slide_inner ul li:nth-child(9) {
+    padding-left: 20px;
+}
+
+.slide_inner ul li img {
+    width: 100%;
+}
+
+.stop {
+    animation-play-state: paused;
+}
+
+#slide p {
+    position: absolute;
+    bottom: 0px;
+    left: 50%;
+    transform: rotate(-50%);
+    cursor: pointer;
+}
+
+@keyframes rotate {
+    0% {
+        margin-left: 0;
+    }
+
+    100% {
+        margin-left: -100%;
+    }
+}
+
+/*footer*/
+#footer {
+    width: 100%;
+    height: 438px;
+    padding-top: 80px;
+    background: #542d4f;
+    position: relative;
+}
+
+#footer .wrap {
+    width: 1320px;
+    margin: 0 auto;
+}
+
+#footer .wrap .f_logo {
+    width: 143px;
+    height: 50px;
+    margin: 0 0 40px;
+}
+
+#footer .wrap img {
+    border: 0;
+    max-width: 100%;
+    height: auto;
+    vertical-align: top;
+}
+
+#footer .wrap .info_link {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    text-align: left;
+    color: #d4b1d4;
+    font-size: 15px;
+}
+
+#footer .wrap .info_link li {
+    padding: 0 8px 0 0;
+    margin-right: 4px;
+    float: left;
+}
+
+#footer .wrap .info_link li a {
+    font-size: 16px;
+}
+
+#footer .wrap .info_link li:after {
+    top: 7px;
+    bottom: 3px;
+}
+
+#footer .wrap .cs_center {
+    width: 235px;
+    margin-bottom: 20px;
+    font-size: 12px;
+    text-align: left;
+    color: #fde163;
+    line-height: 1.2;
+}
+
+#footer .wrap .cs_center .call {
+    font-size: 15px;
+    line-height: 3.2;
+    font-weight: 500;
+    color: #f8e4ef;
+
+}
+
+#footer .wrap .cs_center .num {
+    margin: 5px 0 28px;
+    font-size: 22px;
+    font-weight: 700;
+    color: #f8e4ef;
+    font-family: 'Della Respira', serif;
+    font-weight: normal;
+}
+
+#footer .wrap .sns_family_area {
+    margin-bottom: 35px;
+    margin-top: 30px;
+}
+
+#footer .wrap .sns_family_area .sns_wrap {
+
+    display: inline-block;
+    margin: 0 36px 0 0;
+    vertical-align: middle;
+}
+
+#footer .wrap .sns_family_area .sns_wrap li {
+    margin: 0 10px;
+    float: left;
+}
+
+#footer .wrap .sns_family_area .sns_wrap li .ico_facebook {
+    width: 35px;
+    height: 35px;
+    background: url(./img/facebook_icon_GelLuna.png) 0 0 no-repeat;
+    background-size: 100%;
+    display: block;
+}
+
+#footer .wrap .sns_family_area .sns_wrap li .ico_youtube {
+    width: 35px;
+    height: 35px;
+    background: url(./img/youtube_icon_GelLuna.png) 0 0 no-repeat;
+    background-size: 100%;
+    display: block;
+}
+
+#footer .wrap .sns_family_area .sns_wrap li .ico_insta {
+    width: 35px;
+    height: 35px;
+    background: url(./img/instargram_icon_GelLuna.png) 0 0 no-repeat;
+    background-size: 100%;
+    display: block;
+}
+
+#footer .wrap .sns_family_area .sns_wrap li .ico_twit {
+    width: 35px;
+    height: 35px;
+    background: url(./img/twitter_icon_GelLuna.png) 0 0 no-repeat;
+    background-size: 100%;
+    display: block;
+}
+
+#footer .wrap select {
+
+    width: 255px;
+    height: 50px;
+    background-size: 43px;
+    line-height: 48px;
+    outline: none;
+}
+
+option {
+    font-weight: normal;
+    display: block;
+    white-space: nowrap;
+    min-height: 1.2em;
+    padding: 0px 2px 1px;
+}
+
+#footer .wrap .info {
+    font-size: 12px;
+    text-align: left;
+}
+
+#footer .wrap .info .txt {
+    margin-bottom: 60px;
+}
+
+#footer .wrap .info .txt span:first-child {
+    margin-right: 15px;
+}
+
+#footer .wrap .info .txt span b {
+    display: inline-block;
+    margin-right: 7px;
+    color: #f8e4ef;
+}
+
+#footer .wrap .info .txt span {
+    display: inline-block;
+    margin-right: 15px;
+    color: #fde163;
+}
+
+#footer .wrap .info .copy {
+    color: #d4b1d4;
+    font-size: 15px;
+    font-family: 'Della Respira', serif;
+    font-weight: normal;
+}
+
+#familySite {
+    width: 255px;
+    height: 50px;
+    background-size: 43px;
+    line-height: 48px;
+    outline: none;
+    padding-left: 18px;
+    color: #f8e4ef;
+    font-size: 15px;
+    background: none;
+    border: 1px solid #f8e4ef;
+    box-sizing: border-box;
+    font-family: 'Della Respira', serif;
+    font-weight: normal;
+}
+
+.select {
+    padding: 0;
+    color: #555;
+}
+
+.left_box {
+    float: left;
+    width: 1060px;
+}
+
+.right_box {
+    float: right;
+    width: 260px;
+}

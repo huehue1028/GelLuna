@@ -1,0 +1,827 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+img {
+    vertical-align: middle;
+}
+
+body {
+    font-family: 'SCoreDream';
+    font-size: 17px;
+    line-height: 24px;
+    color: #342a33;
+    background-color: #342a33;
+    min-width: 1450px;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: block;
+}
+
+/*top*/
+.top {
+    background-color: #542d4f;
+    width: 100%;
+    height: 50px;
+    margin: 0 auto;
+}
+
+/*header*/
+#header {
+    background-color: #f4edd3;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 150px;
+    z-index: 50;
+    border-bottom: rgb(99, 99, 99) 1px solid;
+    font-family: 'Della Respira', serif;
+    font-weight: normal;
+}
+
+.header_inner {
+    width: 1320px;
+    margin: 0 auto;
+}
+
+.logo {
+    padding-top: 22px;
+    float: left;
+}
+
+.gnb {
+    float: left;
+    padding: 30px;
+}
+
+.gnb li {
+    float: left;
+    color: inherit;
+    font-size: 22px;
+    padding-top: 10px;
+    padding-right: 60px;
+}
+
+.util {
+    float: right;
+}
+
+.util p {
+    float: left;
+    display: block;
+    padding: 30px 0;
+}
+
+.util .cart {
+    padding-left: 30px;
+}
+
+.util .glass {
+    padding-left: 20px;
+}
+
+.util .m_lang_area {
+    padding-left: 20px;
+}
+
+#header .util a.border_radius {
+    vertical-align: middle;
+    width: 100px;
+    padding: 0 10px;
+    margin-left: 30px;
+    border: 1px solid #542d4f;
+    border-radius: 30px;
+    height: 38px;
+    line-height: 38px;
+    box-sizing: border-box;
+}
+
+#header ul li a:hover {
+    font-weight: bold;
+    transition: all 0.5s;
+}
+
+#header .util a.border_radius:hover {
+    background-color: #542d4f;
+    color: #fff;
+    transition: all 0.5s;
+}
+
+#header .cart:hover {
+    background: url(./img/shopping-bag_top_hover.png) no-repeat 100% 50%;
+}
+
+#header .glass:hover {
+    background: url(./img/magnifying-glass_top_hover.png) no-repeat 100% 50%;
+}
+
+/*banner*/
+#banner {
+    width: 100%;
+    margin-top: 149px;
+    padding-bottom: 100px;
+}
+
+#banner img {
+    width: 100%;
+}
+
+
+/*menu_name*/
+.menu_name {
+    color: #fde163;
+    padding-left: 65px;
+    padding-top: 30px;
+    font-family: 'Della Respira', serif;
+    font-weight: normal;
+}
+
+.menu_name span {
+    font-family: "SCoreDream";
+}
+
+.accumulated {
+    font-family: inherit;
+}
+
+/*explain*/
+.explain {
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 222px;
+    color: #fde163;
+    text-align: center;
+}
+
+.explain h1 {
+    padding-top: 40px;
+    padding-right: 65px;
+    padding-bottom: 60px;
+    font-size: 40px;
+}
+
+.review_info {
+    padding-top: 0px;
+}
+
+.explain h2 {
+    padding-bottom: 15px;
+    font-size: 27px;
+}
+
+.explain .coupon {
+    width: 1200px;
+    margin: 0 auto;
+    padding-bottom: 40px;
+}
+
+.explain .coupon li {
+    float: left;
+    padding-left: 50px;
+}
+
+.explain .caution {
+    color: rgb(183, 183, 183);
+    font-size: 13px;
+}
+
+.explain>span {
+    display: block;
+    width: 1197px;
+    margin: 50px auto;
+    height: 4px;
+    background-color: #f4edd3;
+}
+
+.best_review {
+    width: 820px;
+    height: 363px;
+    color: #342a33;
+    margin: 0 auto;
+    font-weight: bold;
+}
+
+.best_review li {
+    position: relative;
+    float: left;
+    box-sizing: border-box;
+    padding-top: 246px;
+    font-size: 13px;
+    color: inherit;
+    text-align: left;
+    padding-left: 12px;
+    letter-spacing: -1px;
+}
+
+.best_review .date {
+    position: absolute;
+    bottom: 69px;
+    right: 15px;
+}
+
+.best_review .product {
+    padding-top: 13px;
+}
+
+.best_review1 {
+    width: 215px;
+    height: 363px;
+    background: url(./img/together_best_review1.png) no-repeat 100% 100%;
+    margin-right: 87px;
+}
+
+.best_review2 {
+    width: 215px;
+    height: 363px;
+    background: url(./img/together_best_review2.png) no-repeat 100% 100%;
+    margin-right: 87px;
+}
+
+.best_review3 {
+    width: 215px;
+    height: 363px;
+    background: url(./img/together_best_review3.png) no-repeat 100% 100%;
+}
+
+/*explain2*/
+.explain2 {
+    width: 1320px;
+    margin: 0 auto;
+    padding-left: 5px;
+    font-weight: bold;
+}
+
+.photo_inner1 {
+    width: 1000px;
+    height: 363px;
+    color: #342a33;
+    margin: 0 auto;
+    padding-top: 66px;
+}
+
+.photo_inner1 li {
+    position: relative;
+    float: left;
+    box-sizing: border-box;
+    padding-top: 246px;
+    font-size: 13px;
+    color: inherit;
+    text-align: left;
+    padding-left: 12px;
+    letter-spacing: -1px;
+}
+
+.photo_inner1 .date {
+    position: absolute;
+    bottom: 69px;
+    right: 15px;
+}
+
+.photo_inner1 .product {
+    padding-top: 13px;
+}
+
+.photo_review1 {
+    width: 215px;
+    height: 363px;
+    background: url(./img/together_photo_review1.png) no-repeat 100% 100%;
+    margin-right: 22px;
+}
+
+.photo_review2 {
+    width: 215px;
+    height: 363px;
+    background: url(./img/together_photo_review2.png) no-repeat 100% 100%;
+    margin-right: 22px;
+}
+
+.photo_review3 {
+    width: 215px;
+    height: 363px;
+    background: url(./img/together_photo_review3.png) no-repeat 100% 100%;
+    margin-right: 22px;
+}
+
+.photo_review4 {
+    width: 215px;
+    height: 363px;
+    background: url(./img/together_photo_review4.png) no-repeat 100% 100%;
+}
+
+
+.photo_inner2 {
+    width: 1000px;
+    height: 363px;
+    color: #342a33;
+    margin: 0 auto;
+    padding-top: 55px;
+    padding-bottom: 50px;
+}
+
+.photo_inner2 li {
+    position: relative;
+    float: left;
+    box-sizing: border-box;
+    padding-top: 246px;
+    font-size: 13px;
+    color: inherit;
+    text-align: left;
+    padding-left: 12px;
+    letter-spacing: -1px;
+}
+
+.photo_inner2 .date {
+    position: absolute;
+    bottom: 69px;
+    right: 15px;
+}
+
+.photo_inner2 .product {
+    padding-top: 13px;
+}
+
+.photo_review5 {
+    width: 215px;
+    height: 363px;
+    background: url(./img/together_photo_review5.png) no-repeat 100% 100%;
+    margin-right: 22px;
+}
+
+.photo_review6 {
+    width: 215px;
+    height: 363px;
+    background: url(./img/together_photo_review6.png) no-repeat 100% 100%;
+    margin-right: 22px;
+}
+
+.photo_review7 {
+    width: 215px;
+    height: 363px;
+    background: url(./img/together_photo_review7.png) no-repeat 100% 100%;
+    margin-right: 22px;
+}
+
+.photo_review8 {
+    width: 215px;
+    height: 363px;
+    background: url(./img/together_photo_review8.png) no-repeat 100% 100%;
+}
+
+.more {
+    text-align: right;
+    padding-bottom: 98px;
+}
+
+.explain2 span {
+    display: block;
+    width: 1197px;
+    margin: 50px auto;
+    height: 4px;
+    background-color: #f4edd3;
+}
+
+/*explain3*/
+.explain3 {
+    width: 1320px;
+    margin: 0 auto;
+    padding-left: 5px;
+}
+
+.explain_inner {
+    color: #fff;
+    font-size: 15px;
+}
+
+.explain_inner .more {
+    padding-top: 40px;
+}
+
+.explain3 .select {
+    width: 255px;
+    height: 50px;
+    background-size: 43px;
+    line-height: 48px;
+    outline: none;
+}
+
+#set {
+    width: 92px;
+    height: 37px;
+    background-size: 43px;
+    outline: none;
+    margin-left: 86px;
+    margin-top: 20px;
+    color: #f8e4ef;
+    font-size: 15px;
+    background: none;
+    border: 1px solid #f8e4ef;
+    box-sizing: border-box;
+    font-family: inherit;
+    text-align: center;
+}
+
+.explain3 .select {
+    padding: 0;
+    color: #555;
+}
+
+.explain3 .partition {
+    display: block;
+    width: 1151px;
+    margin: 20px auto;
+    height: 2px;
+    background-color: #f4edd3;
+}
+
+.explain3 li.border_radius {
+    vertical-align: middle;
+    width: 49px;
+    padding: 0 6px;
+    color: #f8e4ef;
+    border: 1px solid #f8e4ef;
+    border-radius: 30px;
+    height: 18px;
+    line-height: 17px;
+    box-sizing: border-box;
+    font-size: 12px;
+}
+
+.explain3 .count {
+    padding-top: 20px;
+}
+
+.explain3 .border {
+    display: block;
+    width: 1px;
+    height: 277px;
+    background-color: #f4edd3;
+}
+
+.explain3 .contents {
+    line-height: 200%;
+    padding: 15px 0;
+}
+
+.explain3 .review_number {
+    color: #f8e4ef;
+}
+
+.text_review1 {
+    position: relative;
+    height: 289px;
+    margin-left: 109px;
+}
+
+.text_review1 .product {
+    padding-top: 16px;
+    font-weight: bold;
+}
+
+.text_review1 .good {
+    position: absolute;
+    left: 0px;
+    top: 259px;
+    letter-spacing: -1px;
+    color: #fde163;
+    font-size: 13px;
+}
+
+.text_review1 .bad {
+    position: absolute;
+    left: 100px;
+    top: 259px;
+    letter-spacing: -1px;
+    color: #fde163;
+    font-size: 13px;
+}
+
+.text_review1 .review_date {
+    position: absolute;
+    right: 360px;
+    top: 30px;
+}
+
+.text_review1 .review_name {
+    position: absolute;
+    right: 149px;
+    top: 30px;
+}
+
+.text_review1 .border {
+    position: absolute;
+    right: 324px;
+    top: 6px;
+}
+
+.text_review2 {
+    position: relative;
+    height: 289px;
+    margin-left: 109px;
+}
+
+.text_review2 .product {
+    padding-top: 16px;
+    font-weight: bold;
+}
+
+.text_review2 .good {
+    position: absolute;
+    left: 0px;
+    top: 259px;
+    letter-spacing: -1px;
+    color: #fde163;
+    font-size: 13px;
+}
+
+.text_review2 .bad {
+    position: absolute;
+    left: 100px;
+    top: 259px;
+    letter-spacing: -1px;
+    color: #fde163;
+    font-size: 13px;
+}
+
+.text_review2 .review_date {
+    position: absolute;
+    right: 360px;
+    top: 30px;
+}
+
+.text_review2 .review_name {
+    position: absolute;
+    right: 149px;
+    top: 30px;
+}
+
+.text_review2 .border {
+    position: absolute;
+    right: 324px;
+    top: 6px;
+}
+
+.text_review3 {
+    position: relative;
+    height: 289px;
+    margin-left: 109px;
+}
+
+.text_review3 .product {
+    padding-top: 16px;
+    font-weight: bold;
+}
+
+.text_review3 .good {
+    position: absolute;
+    left: 0px;
+    top: 259px;
+    letter-spacing: -1px;
+    color: #fde163;
+    font-size: 13px;
+}
+
+.text_review3 .bad {
+    position: absolute;
+    left: 100px;
+    top: 259px;
+    letter-spacing: -1px;
+    color: #fde163;
+    font-size: 13px;
+}
+
+.text_review3 .review_date {
+    position: absolute;
+    right: 360px;
+    top: 30px;
+}
+
+.text_review3 .review_name {
+    position: absolute;
+    right: 149px;
+    top: 30px;
+}
+
+.text_review3 .border {
+    position: absolute;
+    right: 324px;
+    top: 6px;
+}
+
+/*footer*/
+#footer {
+    width: 100%;
+    height: 438px;
+    padding-top: 80px;
+    margin-top: 197px;
+    background: #542d4f;
+    position: relative;
+}
+
+#footer .wrap {
+    width: 1320px;
+    margin: 0 auto;
+}
+
+#footer .wrap .f_logo {
+    width: 143px;
+    height: 50px;
+    margin: 0 0 40px;
+}
+
+#footer .wrap img {
+    border: 0;
+    max-width: 100%;
+    height: auto;
+    vertical-align: top;
+}
+
+#footer .wrap .info_link {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    text-align: left;
+    color: #d4b1d4;
+    font-size: 15px;
+}
+
+#footer .wrap .info_link li {
+    padding: 0 8px 0 0;
+    margin-right: 4px;
+    float: left;
+}
+
+#footer .wrap .info_link li a {
+    font-size: 16px;
+}
+
+#footer .wrap .info_link li:after {
+    top: 7px;
+    bottom: 3px;
+}
+
+#footer .wrap .cs_center {
+    width: 235px;
+    margin-bottom: 20px;
+    font-size: 12px;
+    text-align: left;
+    color: #fde163;
+    line-height: 1.2;
+}
+
+#footer .wrap .cs_center .call {
+    font-size: 15px;
+    line-height: 3.2;
+    font-weight: 500;
+    color: #f8e4ef;
+
+}
+
+#footer .wrap .cs_center .num {
+    margin: 5px 0 28px;
+    font-size: 22px;
+    font-weight: 700;
+    color: #f8e4ef;
+    font-family: 'Della Respira', serif;
+    font-weight: normal;
+}
+
+#footer .wrap .sns_family_area {
+    margin-bottom: 35px;
+    margin-top: 30px;
+}
+
+#footer .wrap .sns_family_area .sns_wrap {
+
+    display: inline-block;
+    margin: 0 36px 0 0;
+    vertical-align: middle;
+}
+
+#footer .wrap .sns_family_area .sns_wrap li {
+    margin: 0 10px;
+    float: left;
+}
+
+#footer .wrap .sns_family_area .sns_wrap li .ico_facebook {
+    width: 35px;
+    height: 35px;
+    background: url(./img/facebook_icon_GelLuna.png) 0 0 no-repeat;
+    background-size: 100%;
+    display: block;
+}
+
+#footer .wrap .sns_family_area .sns_wrap li .ico_youtube {
+    width: 35px;
+    height: 35px;
+    background: url(./img/youtube_icon_GelLuna.png) 0 0 no-repeat;
+    background-size: 100%;
+    display: block;
+}
+
+#footer .wrap .sns_family_area .sns_wrap li .ico_insta {
+    width: 35px;
+    height: 35px;
+    background: url(./img/instargram_icon_GelLuna.png) 0 0 no-repeat;
+    background-size: 100%;
+    display: block;
+}
+
+#footer .wrap .sns_family_area .sns_wrap li .ico_twit {
+    width: 35px;
+    height: 35px;
+    background: url(./img/twitter_icon_GelLuna.png) 0 0 no-repeat;
+    background-size: 100%;
+    display: block;
+}
+
+#footer .wrap select {
+    width: 255px;
+    height: 50px;
+    background-size: 43px;
+    line-height: 48px;
+    outline: none;
+}
+
+#footer option {
+    font-weight: normal;
+    display: block;
+    white-space: nowrap;
+    min-height: 1.2em;
+    padding: 0px 2px 1px;
+}
+
+#footer .wrap .info {
+    font-size: 12px;
+    text-align: left;
+}
+
+#footer .wrap .info .txt {
+    margin-bottom: 60px;
+}
+
+#footer .wrap .info .txt span:first-child {
+    margin-right: 15px;
+}
+
+#footer .wrap .info .txt span b {
+    display: inline-block;
+    margin-right: 7px;
+    color: #f8e4ef;
+}
+
+#footer .wrap .info .txt span {
+    display: inline-block;
+    margin-right: 15px;
+    color: #fde163;
+}
+
+#footer .wrap .info .copy {
+    color: #d4b1d4;
+    font-size: 15px;
+    font-family: 'Della Respira', serif;
+    font-weight: normal;
+}
+
+#familySite {
+    width: 255px;
+    height: 50px;
+    background-size: 43px;
+    line-height: 48px;
+    outline: none;
+    padding-left: 18px;
+    color: #f8e4ef;
+    font-size: 15px;
+    background: none;
+    border: 1px solid #f8e4ef;
+    box-sizing: border-box;
+    font-family: 'Della Respira', serif;
+    font-weight: normal;
+}
+
+#familySite .select {
+    padding: 0;
+    color: #555;
+}
+
+.left_box {
+    float: left;
+    width: 1060px;
+}
+
+.right_box {
+    float: right;
+    width: 260px;
+}
